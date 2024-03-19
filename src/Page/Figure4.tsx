@@ -41,57 +41,57 @@ export default function Figure4({ }: Props) {
             {
                 header: 'Date',
                 key: 'Date',
-                width: 10
+                width: 30
             },
             {
                 header: 'RVC',
                 key: 'RVC',
-                width: 10
+                width: 30
             },
             {
                 header: 'Period',
                 key: 'Period',
-                width: 10
+                width: 30
             },
             {
                 header: 'CountAdults',
                 key: 'CountAdults',
-                width: 10
+                width: 30
             },
             {
                 header: ' CountChildren',
                 key: ' CountChildren',
-                width: 10
+                width: 30
             },
             {
                 header: 'SalesAdults',
                 key: 'SalesAdults',
-                width: 10
+                width: 30
             },
             {
                 header: 'SalesChildren',
                 key: 'SalesChildren',
-                width: 10
+                width: 30
             },
             {
                 header: 'Count',
                 key: 'Count',
-                width: 10
+                width: 30
             },
             {
                 header: 'Countb',
                 key: 'Countb',
-                width: 10
+                width: 30
             },
             {
                 header: 'Sales',
                 key: 'Sales',
-                width: 10
+                width: 30
             },
             {
                 header: 'Salesb',
                 key: 'Salesb',
-                width: 10
+                width: 30
             }
         ]
 
