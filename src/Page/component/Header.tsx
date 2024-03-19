@@ -1,5 +1,5 @@
 import React from 'react'
-import { DownOutlined, UserOutlined, SettingOutlined, LogoutOutlined, MessageOutlined } from '@ant-design/icons';
+import { DownOutlined, UserOutlined, SettingOutlined, LogoutOutlined, MessageOutlined, SearchOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 import { Dropdown, Space } from 'antd';
 import logo from '../../asset/images/unknown.png'
@@ -38,10 +38,13 @@ const items: MenuProps['items'] = [
 export default function Header() {
   return (
     <div className='border-b sticky top-0 bg-white w-full z-50 h-20 shadow-md px-[170px] rounded-xl flex items-center justify-between'>
-      <NavLink to='/' className='flex items-center cursor-pointer'>
-        <img className='h-[50px] w-[70px]' src={logo} alt='' />
-        <span className='font-bold text-2xl ml-[-5px]'>INFOTEL</span>
-      </NavLink>
+      <div className='flex items-center justify-between w-[40%]'>
+        <NavLink to='/' className='flex items-center cursor-pointer'>
+          <img className='h-[50px] w-[70px]' src={logo} alt='' />
+          <span className='font-bold text-2xl ml-[-5px]'>INFOTEL</span>
+        </NavLink>
+        <input placeholder='Tìm kiếm ...' className='px-10 py-2 ml-20 text-gray-500 bg-gray-200 rounded-3xl duration-100 hover:border-blue-300 hover:border outline-none' />
+      </div>
 
       <div className='flex items-center justify-end'>
         <div>
